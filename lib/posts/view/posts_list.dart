@@ -67,6 +67,8 @@ class _PostsListState extends State<PostsList>
                                          PostListItem(post: state.posts[index],);
 
 
+
+
                           },
                     itemCount: state.hasReachedMax?
                                state.posts.length:
